@@ -28,7 +28,10 @@ header nav {
     align-items: center;
     color: white;
 }
-
+header nav ul .links{
+    display: flex;
+    align-items: center;
+}
 header nav ul {
     display: flex;
     align-items: center;
@@ -203,7 +206,9 @@ header .hero-container h1 {
 
 
 @media (max-width:700px) {
-
+    header nav ul .links{
+        display: none;
+    }
     header .hero-container {
         margin-top: 3rem;
         display: flex;
